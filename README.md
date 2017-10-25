@@ -15,7 +15,7 @@ module.exports.square = (x) => {
 
 ./index.js
 ```javascript
-require('resolve-project-root')(__dirname);
+require('rpr')(__dirname);
 
 const custom = require('~/path/file.js');
 

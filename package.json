@@ -1,0 +1,22 @@
+{
+  "name": "rpr",
+  "version": "0.1.0",
+  "description": "Resolves '~/...' to a project root",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorhreed/resolve-project-root.git"
+  },
+  "keywords": [
+    "resolve",
+    "project",
+    "root",
+    "path"
+  ],
+  "author": "Trevor Ree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trevorhreed/resolve-project-root/issues"
+  },
+  "homepage": "https://github.com/trevorhreed/resolve-project-root#readme"
+}

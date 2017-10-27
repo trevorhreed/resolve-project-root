@@ -1,7 +1,7 @@
 const path = require('path')
 const originalPathResolve = path.resolve;
 const rpr = module.exports = (root) => {
-  if(!root) root == process.cwd();
+  if(!root) root = process.cwd();
   if(root[0] !== '/') root = originalPathResolve(root);
   path.resolve = (...parts) => {
     parts = parts.map((part)=>{

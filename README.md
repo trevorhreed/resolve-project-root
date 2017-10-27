@@ -3,7 +3,7 @@
 
 This little utility modifies the built-in `path.resolve(...)` function so that you can resolve paths relative to a project root. Because `require(...)` uses `path.resolve(...)`, this also modifies the behvaior of `require(...)`.
 
-### Example
+## Example
 
 ./utils.js
 ```javascript
@@ -30,3 +30,10 @@ module.exports = () => {
   console.log( square(2) );  
 }
 ```
+
+
+## API
+
+### rpr([directory])
+
+ * `directory` **{String}** a path to set as the project directory (Default: `process.cwd()`)

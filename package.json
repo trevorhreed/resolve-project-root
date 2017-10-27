@@ -1,6 +1,6 @@
 {
   "name": "rpr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Resolves '~/...' to a project root",
   "main": "index.js",
   "repository": {

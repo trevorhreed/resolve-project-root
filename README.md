@@ -34,6 +34,6 @@ module.exports = () => {
 
 ## API
 
-### rpr([directory])
+### [rpr([directory])](index.js#L3)
 
  * `directory` **{String}** a path to set as the project directory (Default: `process.cwd()`)
